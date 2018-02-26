@@ -1,2 +1,2 @@
 # init.vim
-Just my vim configs, might try to make something more of them à la spacemacs/doom-emacs at some point
+Used with neovim, just dump the files into .config/nvim (Probably different if you're not on GNU/Linux)
