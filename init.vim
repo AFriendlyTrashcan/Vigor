@@ -1,4 +1,4 @@
-set langmap='q,\\,w,pr,yt,fy,ro,lp,=],aa,os,ed,dh,hj,tk,nl,s\\;,-',\\;z,jc,kv,mm,w\\,,[-,]=,\"Q,<W,>E,PR,YT,FY,GU,,CI,RO,LP,?{,+},AA,OS,ED,UF,IG,DH,HJ,TK,NL,_\",QX,JC,KV,XB,BN,MM,W<,V>,Z?
+set langmap='q,\\,w,pr,yt,fy,ro,lp,=],aa,os,ed,dh,hj,tk,nl,s\\;,-',\\;z,jc,kv,mm,w\\,,[-,]=,\"Q,<W,>E,PR,YT,FY,CI,RO,LP,?{,+},AA,OS,ED,IG,DH,HJ,TK,NL,_\",QX,JC,KV,XB,BN,MM,W<,V>,Z?
 set showmatch           " Show matching brackets.
 set number              " Show the line numbers on the left side.
 set formatoptions+=o    " Continue comment marker in new lines.
@@ -9,11 +9,13 @@ set nojoinspaces        " Prevents inserting two spaces after punctuation on a j
 set wildmenu
 set mouse=a
 
-autocmd FileType * nested :call tagbar#autoopen() 
+"Uncomment to autoopen tagbar
+"autocmd FileType * nested :call tagbar#autoopen() 
 let g:tagbar_autofocus = 0
 let g:tagbar_compact = 1                           
 
-autocmd vimenter * NERDTree
+"Uncomment to autoopen NERDTree
+"autocmd vimenter * NERDTree
 
 let g:airline_powerline_fonts = 1
 
