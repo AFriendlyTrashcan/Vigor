@@ -26,10 +26,10 @@ set splitbelow          " Horizontal split below current.
 set splitright          " Vertical split to right of current.
 
 if !&scrolloff
-        set scrolloff=3       " Show next 3 lines while scrolling.
+	set scrolloff=3       " Show next 3 lines while scrolling.
 endif
 if !&sidescrolloff
-        set sidescrolloff=5   " Show next 5 columns while side-scrolling.
+	set sidescrolloff=5   " Show next 5 columns while side-scrolling.
 endif
 set nostartofline       " Do not jump to first character with page commands.
 
@@ -39,7 +39,7 @@ let mapleader=" "
 map <Leader>t :TagbarToggle<CR>
 map <Leader>y :NERDTreeToggle<CR>
 map <Leader>c :noh<CR>
-
+map <Leader>z :MundoToggle<CR>
 "Neobundle 
 if 0 | endif
 
@@ -61,6 +61,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
     NeoBundle 'ctrlpvim/ctrlp.vim'
     NeoBundle 'vim-syntastic/syntastic'
     NeoBundle 'Valloric/YouCompleteMe'
+    NeoBundle 'simnalamburt/vim-mundo'
 call neobundle#end()
 
 filetype plugin indent on
