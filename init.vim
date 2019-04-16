@@ -49,6 +49,16 @@ endif
 
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
+ let g:ascii = [
+          \ '        __',
+          \ '.--.--.|__|.--------.',
+          \ '|  |  ||  ||        |',
+          \ ' \___/ |__||__|__|__|',
+          \ ''
+\]
+
+let g:startify_custom_header = g:ascii
+
 call neobundle#begin(expand('~/.vim/bundle/'))
     NeoBundleFetch 'Shougo/neobundle.vim'
     "Plugins go here
@@ -62,6 +72,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
     NeoBundle 'vim-syntastic/syntastic'
     NeoBundle 'Valloric/YouCompleteMe'
     NeoBundle 'simnalamburt/vim-mundo'
+    NeoBundle 'mhinz/vim-startify'
+    NeoBundle 'easymotion/vim-easymotion'
 call neobundle#end()
 
 filetype plugin indent on
