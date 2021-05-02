@@ -1,0 +1,9 @@
+[Sun Feb  7 20:23:25 2021] install: diffcoeff
+[Sun Feb  7 20:23:25 2021] running mktexlsr
+[Sun Feb  7 20:23:25 2021] success, output:
+(cmd)mktexlsr: /usr/share/texmf-config: directory not writable. Skipping...
+(cmd)mktexlsr: /usr/share/texmf-dist: directory not writable. Skipping...
+(cmd)mktexlsr: /usr/share/texmf-var: directory not writable. Skipping...
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+

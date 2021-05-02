@@ -1,0 +1,2 @@
+#! /bin/bash
+exec chromium --disable-frame-rate-limit --disable-gpu-vsync --max-gum-fps="240" $@

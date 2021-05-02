@@ -1,0 +1,36 @@
+name 00texlive.installation
+category TLCore
+depend opt_location:http://mirror.ctan.org/systems/texlive/tlnet
+depend setting_available_architectures:
+depend setting_usertree:1
+
+name diffcoeff
+category Package
+revision 53244
+shortdesc Write differential coefficients easily and consistently
+longdesc diffcoeff.sty allows the easy and consistent writing of
+longdesc ordinary, partial and other derivatives of arbitrary (algebraic
+longdesc or numeric) order. For mixed partial derivatives, the total
+longdesc order of differentiation is calculated by the package. Optional
+longdesc arguments allow specification of points of evaluation (ordinary
+longdesc derivatives), or variables held constant (partial derivatives),
+longdesc and the placement of the differentiand (numerator or appended).
+longdesc The package is built on xtemplate, allowing systematic
+longdesc fine-tuning of the display and generation and use of variant
+longdesc forms (like derivatives built from D, \Delta or \delta). A
+longdesc command for differentials ensures the dx used in e.g. integrals
+longdesc is consistent with the form used in derivatives. The package
+longdesc requires the LaTeX3 bundles l3kernel and l3packages.
+containersize 6040
+containerchecksum 4f8a1dd23b34cf7d6f213a6bf6699286c7e0df73a8a81ce59d6bd2d500f108f60293fac6f1c938c73afd5d4b1b20f64f2ccfe74f5031b0dda8cba65eabe7178a
+doccontainersize 620496
+doccontainerchecksum b45ae815b92e542d0158da9a75978f97b2ca14056484a776dbd236da551dabe025fd85366fe2ca230b095119bb47fc3048fbb8f1cc4943f7fde9aa4820f0cb36
+runfiles size=7
+ tex/latex/diffcoeff/diffcoeff-doc.def
+ tex/latex/diffcoeff/diffcoeff.sty
+catalogue-also derivative
+catalogue-ctan /macros/latex/contrib/diffcoeff
+catalogue-license lppl1.3c
+catalogue-topics maths
+catalogue-version 3.2
+
